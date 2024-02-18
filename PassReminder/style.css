@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    background-color: rgba(88, 72, 72, 0.336);
+    padding: 12px 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul>li:hover {
+    color: rgb(63, 204, 204);
+}
+
+table,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 23px 0;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: black;
+    color: aliceblue;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 9px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.btnsm {
+    padding: 8px 15px;
+    background: rgb(68, 67, 67);
+    color: rgb(246, 246, 247);
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*.alert {
+    display: none;
+}*/
+#alert {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: inherit;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.passform {
+    background-image: url('vectorimg2.jpg');
+    /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adds a shadow effect */
+    opacity: 0.9;
+    /* Sets the transparency of the background image */
+}
+
+.passform h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.passform form {
+    text-align: center;
+    /* Centers the form elements */
+}
+
+.passform label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.passform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.passform button {
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    /* Centers the button horizontally */
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.passform button:hover {
+    background-color: #555;
+}
+
+.header {
+    position: relative;
+    height: 400px;
+    /* Adjust height as needed */
+    background-color: #333;
+    /* Fallback background color */
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.header-title {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-tagline {
+    font-size: 1.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    /* Take remaining space */
+    padding-right: 20px;
+    /* Add space between text and image */
+}
+
+.about-image img {
+    max-width: 350px;
+    /* Ensure the image fits within its container */
+}
+
+.pass {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pass h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pass table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pass table th,
+.pass table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.pass table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    /* Full width */
+    position: inherit;
+    /* Fixed positioning */
+    bottom: 0;
+    /* Stick it to the bottom */
+    left: 0;
+    /* Align to the left */
+    z-index: 999;
+    /* Ensure it stays on top */
+}
+
+.footer-content {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Use the color inherited from the parent element */
+}

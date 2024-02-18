@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassReminder - Your Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassReminder</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#passform">Add Password</a></li>
+            <li><a href="#pass">view</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <img src="background2.jpg" alt="Header Image" class="header-image">
+        <div class="header-overlay">
+            <h1 class="header-title">PassReminder</h1>
+            <p class="header-tagline">Your Password Manager</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="about" id="about">
+            <div class="about-text">
+                <h2>Password Manager</h2>
+                <p>We're delighted to see you here! PassReminder is more than just a password manager; it's your digital
+                    guardian, dedicated to safeguarding your online presence with state-of-the-art security solutions.
+                    With PassReminder, you can securely store and manage all your passwords, ensuring easy access while
+                    maintaining the highest standards of encryption and protection.</p>
+
+            </div>
+            <div class="about-image">
+                <img src="passform.png" alt="About Image">
+            </div>
+        </div>
+
+        <!-- Add password form -->
+        <div class="passform" id="passform">
+            <h2><b>Add a Password</b></h2>
+            <form action="/submit" method="post">
+
+                <!-- Text input for website -->
+                <label for="website">Website:</label>
+                <input type="text" id="website" name="website" required>
+                <br><br>
+
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+
+                <!-- Submit button -->
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="pass" id="pass">
+            <h2>Your Passwords <span id="alert">**!!Copied!!**</span></h2>
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+
+            </table>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">PassReminder</div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2024 PassReminder. All rights reserved.</p>
+                <p>Designed by YourCompany</p>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
